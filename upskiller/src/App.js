@@ -2,6 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Calculator from './components/Calculator';
+import AreasSkillsTree from './components/AreasSkillsTree';
+//import areas from './testData.json';
 
 function App() {
   return (
@@ -9,6 +11,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <Calculator/>
+        <AreasSkillsTree/>
         <a
           className="App-link"
           href="https://reactjs.org"
