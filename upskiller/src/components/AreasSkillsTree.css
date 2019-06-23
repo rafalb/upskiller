@@ -1,0 +1,32 @@
+
+ul.areas, ul.topics {
+    margin: 1em auto 3em auto;
+    text-align: left;
+    list-style-type: none;
+}
+
+li.area {
+    font-size: 0.8em;
+    text-align: center;
+}
+
+li.topic {
+    font-size: 0.9em;
+}
+
+.topicTitle {
+    display: inline-block;
+    width: 300px;
+    margin-right: 0.4em;
+    text-align: right;
+}
+
+.topicSkill {
+    display: inline-block;
+    width: 300px;
+    margin-left: 0.4em;
+}
+
+li.area, li.topic {
+    margin: 0.2em;
+}
