@@ -23,8 +23,13 @@ li.topic {
 
 .topicSkill {
     display: inline-block;
-    width: 300px;
+    width: 90px;
     margin-left: 0.4em;
+}
+
+.topicUpdate {
+    display: inline-block;
+    width: 300px;
 }
 
 li.area, li.topic {
