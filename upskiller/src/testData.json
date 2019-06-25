@@ -1,11 +1,65 @@
 {
     "areas":
     [
-        { "name": "Front End", "topics": ["HTML", "CSS", "JavaScript", "ES6", "ES2017", "React", "Redux", "WebPack", "Cypress", "Jest" ] },
-        { "name": "Architecture", "topics": ["DDD", "Microservices", "Serverless", "Actor model"] },
-        { "name": "Cloud", "topics": ["Amazon Web Services", "Microsoft Azure", "Google Cloud Platform"] },
-        { "name": "Leadership", "topics": ["Management 3.0", "Charisma", "Courage", "Motivation"] },
-        { "name": "Process", "topics": ["Objectives & Key Results", "Event Storming", "Lean Software Development", "Liberating Structures"] },
-        { "name": "Product", "topics": ["Lean Startup", "Hypothesis-Driven Development", "Product Discovery", "Story Mapping", "Lean Canvas"] }
+        {
+            "name": "Front End",
+            "topics": [
+                { "name": "HTML", "skill": 0.6 },
+                { "name": "CSS", "skill": 0.5 },
+                { "name": "JavaScript basics", "skill": 0.4 },
+                { "name": "ES6", "skill": 0.3 },
+                { "name": "ES2017", "skill": 0.0 },
+                { "name": "React", "skill": 0.3 },
+                { "name": "Redux", "skill": 0.1 },
+                { "name": "WebPack", "skill": 0.0 },
+                { "name": "Cypress", "skill": 0.0 },
+                { "name": "Jest", "skill": 0.0 }
+            ]
+        },
+        {
+            "name": "Architecture",
+            "topics": [
+                { "name": "Domain-Driven Design", "skill": 0.7 },
+                { "name": "Microservices", "skill": 0.5 },
+                { "name": "Serverless", "skill": 0.2 },
+                { "name": "Actor model", "skill": 0.0 }
+            ]
+        },
+        {
+            "name": "Cloud",
+            "topics": [
+                { "name": "Amazon Web Services", "skill": 0.0 },
+                { "name": "Microsoft Azure", "skill": 0.4 },
+                { "name": "Google Cloud Platform", "skill": 0.2 }
+            ]
+        },
+        {
+            "name": "Leadership",
+            "topics": [
+                { "name": "Management 3.0", "skill": 0.6 },
+                { "name": "Charisma", "skill": 0.2 },
+                { "name": "Courage", "skill": 0.0 },
+                { "name": "Motivation", "skill": 0.8 }
+            ]
+        },
+        {
+            "name": "Process",
+            "topics": [
+                { "name": "Objectives & Key Results", "skill": 0.7 },
+                { "name": "Event Storming", "skill": 0.4 },
+                { "name": "Lean Software Development", "skill": 0.6 },
+                { "name": "Liberating Structures", "skill": 0.1 }
+            ]
+        },
+        {
+            "name": "Product Development",
+            "topics": [
+                { "name": "Lean Startup", "skill": 0.2 },
+                { "name": "Hypothesis-Driven Development", "skill": 0.2 },
+                { "name": "Product Discovery", "skill": 0.4 },
+                { "name": "Story Mapping", "skill": 0.4 },
+                { "name": "Lean Canvas", "skill": 0.2 }
+            ]
+        }
     ]
 }
